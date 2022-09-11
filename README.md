@@ -1,0 +1,5 @@
+# SpaceColonies
+The purpose of this project was to utilize different data types and data structures to create a system that automates the process of placing applicants in outer space colonies. Applicants were placed on planets if they met the criteria based on their 3 skill traits (MEDICINE, AGRICULTURE, and TECHNOLOGY) and their personal planet preferences. If there was room on the requested planet, then the program compared the person’s scores against the planet’s minimum requirements and made the decision to allow the user to accept or reject their application. If the person had no colony request, the user would be given the option to accept or decline the person for the planet colony with the most available space whose minimum requirements were suitable. If the person did not qualify for their planet preference, then they were rejected.
+
+The Circular Array Queue Data Structure was used to keep track of the people who were waiting in line to be accepted or rejected from the planet. Other data types were utilized to represent the different characteristics of the program such as a Person data type, a Skills data type, and a Planet data type.
+
